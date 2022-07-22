@@ -1,0 +1,158 @@
+/* product page */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+
+    font-family: 'Poppins', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+
+}
+
+    
+body{
+
+
+   background-image: url("https://dl.dropboxusercontent.com/s/mr7gyz1zwtxudci/website-background-image-size-psd-vector-photo.jpg");
+   
+}
+
+form {
+    margin: 60px 100px; 
+    
+}
+h1 {
+
+    font-weight: bolder;
+    color: white;
+}
+
+button, input[type="submit"] {
+    margin-left: 20px;
+    color:  white;
+    border: 1px solid whitesmoke;
+        font-size: 16px;
+    border-radius: 3px;
+    position: relative;
+    background-color: #292670;
+    top: -55px;
+    left: 830px;
+   
+
+    }
+
+
+    .addbutton{
+        background-color: #1d242d;
+        padding: 10px 30px;
+    }
+
+
+    .deletebutton{
+        background-color:crimson; 
+        padding: 10px 20px;
+
+    }
+
+    
+    hr{
+        border: none;
+        border-top: 3px solid  #4a4a894f;
+    }
+
+    
+    .message{
+        display: block;
+        background-color:#1d242db7;
+        border-bottom: 4px solid grey;
+        padding:1.5rem 1rem;
+        font-size: 16px;
+        color: whitesmoke;
+        margin-bottom: 0;
+        text-align: left;
+     }
+
+   p{
+
+        text-align: center;
+   }
+
+   ul {
+
+margin: auto;
+margin-top: 100px;
+
+   }
+
+li {
+    width: 250px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 10px;
+    box-shadow: -4px 4px 6px rgb(44, 22, 56);
+    /* box-shadow: 2px -2px 3px rgb(44, 22, 56),
+                -2px 2px 6px #9492dd; */
+    /* border : 2px solid black; */
+    list-style: none ;
+    background-color: #9492dd;
+    margin-left: 20px;
+    margin-top:40px ;
+    font-weight: bolder;
+    padding: 5px 10px;
+  
+   
+}
+
+li:hover{
+    background-color: #bebcfc;
+}
+
+input[type="checkbox"]{
+
+/* background-color: #1d242d; */
+accent-color: #1d242d;
+}
+
+footer {
+
+    margin-top: 150px;
+    text-align: center;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        background-color: #1d242db7;
+        color: white;
+    }
+    
+    @media (max-width : 600px) {
+
+        form{
+            width:90%;
+            margin: 50px 20px;
+        margin: auto;
+        }
+    
+        button, input[type="submit"]{
+            font-size: 10px;
+            padding: 5px 10px;
+            top: -45px;
+            left: 300px;
+            margin-left: 10px;
+        }
+       
+    .addbutton{
+        padding: 5px 10px;
+    }
+    hr{
+        width: 100%;
+    }
+
+    li {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 20px;
+       
+    }
+    }
