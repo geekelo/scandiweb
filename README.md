@@ -25,6 +25,6 @@ Email: geekeloxyz@gmail.com
 
 
 ## 2. Product List Page –
-– Beautifully displays existing products on the MySQL database in a grid layout.
+- Beautifully displays existing products on the MySQL database in a grid layout.
 - Unwanted products can be deleted by first selecting the individual checkboxes  of the unwanted products and by clicking the “Mass Delete” button.
 - The Product Add page can be returned to by clicking the ADD button
