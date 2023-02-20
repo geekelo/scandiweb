@@ -9,7 +9,7 @@ Users can also view a list of added products. <br>
 Users can select and delete selected products. <br>
 Products are displayed beautifully in grid layout. <br>
 <b> LIVE VIEW </b> - https://geekelo.xyz/scandiweb-assignment/product-list.php <br>
-Email: geekeloxyz@gmail.com
+Email: efuelight12@gmail.com
 
 # Features & Functions
 
